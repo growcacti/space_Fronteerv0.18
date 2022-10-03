@@ -79,51 +79,7 @@ class Background():
 
         p12 = pg.image.load("gx/P12.png").convert_alpha()
 
-        p13 = pg.image.load("gx/P13.png").convert_alpha()
-        p14 = pg.image.load("gx/P14.png").convert_alpha()
-
-        p15 = pg.image.load("gx/P15.png").convert_alpha()
-
-        p16 = pg.image.load("gx/P16.png").convert_alpha()
-        p17 = pg.image.load("gx/P17.png").convert_alpha()
-        p18 = pg.image.load("gx/P18.png").convert_alpha()
-
-        p19 = pg.image.load("gx/P19.png").convert_alpha()
-
-        p20 = pg.image.load("gx/P20.png").convert_alpha()
-        p21 = pg.image.load("gx/P21.png").convert_alpha()
-
-        p22 = pg.image.load("gx/P22.png").convert_alpha()
-
-        p23 = pg.image.load("gx/P23.png").convert_alpha()
-        p24 = pg.image.load("gx/P24.png").convert_alpha()
-        p25 = pg.image.load("gx/P25.png").convert_alpha()
-
-        p26 = pg.image.load("gx/P26.png").convert_alpha()
-        p27 = pg.image.load("gx/P27.png").convert_alpha()
-
-        p28 = pg.image.load("gx/P28.png").convert_alpha()
-        p29 = pg.image.load("gx/P29.png").convert_alpha()
-        p30 = pg.image.load("gx/P30.png").convert_alpha()
-        p31 = pg.image.load("gx/P31.png").convert_alpha()
-        p32 = pg.image.load("gx/P32.png").convert_alpha()
-
-        p33 = pg.image.load("gx/P33.png").convert_alpha()
-
-        p34 = pg.image.load("gx/P34.png").convert_alpha()
-        p35 = pg.image.load("gx/P35.png").convert_alpha()
-        p36 = pg.image.load("gx/P36.png").convert_alpha()
-
-        p37 = pg.image.load("gx/P37.png").convert_alpha()
-
-        p38 = pg.image.load("gx/P38.png").convert_alpha()
-        p39 = pg.image.load("gx/P39.png").convert_alpha()
-
-        p40 = pg.image.load("gx/P40.png").convert_alpha()
-
-        p41 = pg.image.load("gx/P41.png").convert_alpha()
-        p42 = pg.image.load("gx/P42.png").convert_alpha()
-        p43 = pg.image.load("gx/P43.png").convert_alpha()
+        
 
         p2_rect = p2.get_rect(center=(1200, 10000))
 
@@ -145,58 +101,8 @@ class Background():
 
         p12_rect = p12.get_rect(center=(5800, 14400))
 
-        p13_rect = p13.get_rect(center=(6200, 6000))
+      
 
-        p14_rect = p14.get_rect(center=(6400, 9600))
-
-        p15_rect = p15.get_rect(center=(6600, 11000))
-
-        p16_rect = p16.get_rect(center=(6800, 3500))
-        p17_rect = p17.get_rect(center=(7000, 13000))
-        p18_rect = p18.get_rect(center=(7200, 8000))
-
-        p19_rect = p19.get_rect(center=(7500, 9000))
-
-        p20_rect = p20.get_rect(center=(7800, 800))
-
-        p21_rect = p21.get_rect(center=(8200, 10000))
-
-        p22_rect = p22.get_rect(center=(8400, 500))
-
-        p23_rect = p23.get_rect(center=(8600, 9000))
-        p24_rect = p24.get_rect(center=(8800, 12300))
-        p25_rect = p25.get_rect(center=(9200, 13000))
-        p26_rect = p26.get_rect(center=(9600, 1800))
-
-        p27_rect = p27.get_rect(center=(10000, 10000))
-
-        p28_rect = p28.get_rect(center=(10500, 800))
-
-        p29_rect = p29.get_rect(center=(11000, 1200))
-
-        p30_rect = p30.get_rect(center=(11200, 2000))
-
-        p31_rect = p31.get_rect(center=(11400, 4000))
-
-        p32_rect = p32.get_rect(center=(12000, 4500))
-
-        p33_rect = p33.get_rect(center=(12500, 5600))
-
-        p34_rect = p34.get_rect(center=(13000, 6500))
-        p35_rect = p35.get_rect(center=(13500, 8500))
-        p36_rect = p36.get_rect(center=(14200, 12000))
-
-        p37_rect = p37.get_rect(center=(5500, 9000))
-
-        p38_rect = p38.get_rect(center=(9000, 3200))
-
-        p39_rect = p39.get_rect(center=(4400, 7000))
-
-        p40_rect = p40.get_rect(center=(7100, 9500))
-
-        p41_rect = p41.get_rect(center=(8200, 3900))
-        p42_rect = p42.get_rect(center=(8900, 500))
-        p43_rect = p43.get_rect(center=(8800, 7000))
         self.bg.blit(p1, p1_rect)
         self.bg.blit(p2, p2_rect)
         self.bg.blit(p3, p3_rect)
@@ -211,39 +117,6 @@ class Background():
         self.bg.blit(p10, p10_rect)
         self.bg.blit(p11, p11_rect)
         self.bg.blit(p12, p12_rect)
-        self.bg.blit(p13, p13_rect)
-        self.bg.blit(p14, p14_rect)
-        self.bg.blit(p15, p15_rect)
-        self.bg.blit(p16, p16_rect)
-        self.bg.blit(p17, p17_rect)
-        self.bg.blit(p18, p18_rect)
-        self.bg.blit(p19, p19_rect)
-        self.bg.blit(p20, p20_rect)
-        self.bg.blit(p21, p21_rect)
-        self.bg.blit(p22, p22_rect)
-        self.bg.blit(p23, p23_rect)
-        self.bg.blit(p24, p24_rect)
-        self.bg.blit(p25, p25_rect)
-
-        self.bg.blit(p26, p26_rect)
-        self.bg.blit(p27, p27_rect)
-        self.bg.blit(p28, p28_rect)
-        self.bg.blit(p29, p29_rect)
-        self.bg.blit(p30, p30_rect)
-        self.bg.blit(p31, p31_rect)
-        self.bg.blit(p32, p32_rect)
-        self.bg.blit(p33, p33_rect)
-        self.bg.blit(p34, p34_rect)
-        self.bg.blit(p35, p35_rect)
-        self.bg.blit(p36, p36_rect)
-        self.bg.blit(p37, p37_rect)
-        self.bg.blit(p38, p38_rect)
-        self.bg.blit(p39, p39_rect)
-        self.bg.blit(p40, p40_rect)
-        self.bg.blit(p41, p41_rect)
-        self.bg.blit(p42, p42_rect)
-        self.bg.blit(p43, p43_rect)
-
         pg.display.flip()
 
         return self.bg, self.bg_rect, self.bg2
